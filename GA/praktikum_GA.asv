@@ -1,0 +1,10 @@
+clc
+clear
+
+%gen
+target = 'Arsandy_Pratama'
+len = length(target);
+genes = create_gene(len);
+
+%fitnes
+fitness= calculate_fitness(gennes,len);
